@@ -51,15 +51,14 @@ public class ConcatSub {
     }
 
     @Benchmark
-    public void stringBuilder(ConcatSubState state, Blackhole bh) {
+    public void stringBuilderNoMat(ConcatSubState state, Blackhole bh) {
         StringBuilder srcBuilder = new StringBuilder(state.str1);
         srcBuilder.append(String.valueOf(state.str2).repeat(state.concatIter));
         StringBuilder tgtBuilder = new StringBuilder();
         for (int i : state.subStringsIndices) {
             tgtBuilder.append(srcBuilder.subSequence(i, i + state.subStringSize));
         }
-        String result = tgtBuilder.toString();
-        bh.consume(result);
+        bh.consume(tgtBuilder);
     }
 
     @Benchmark
@@ -74,7 +73,7 @@ public class ConcatSub {
     }
 
     @Benchmark
-    public void stringBuilderMidMat(ConcatSubState state, Blackhole bh) {
+    public void stringBuilder(ConcatSubState state, Blackhole bh) {
         StringBuilder srcBuilder = new StringBuilder(state.str1);
         srcBuilder.append(String.valueOf(state.str2).repeat(state.concatIter));
         StringBuilder tgtBuilder = new StringBuilder();
