@@ -155,6 +155,7 @@ public class ArrayRope implements CharSequence {
                 current_length += rope.length();
             } else {
                 ArrayRopePiece new_piece = content instanceof ArrayRopePiece piece ? piece : new ArrayRopePiece(content);
+                pieces[current_piece_index] = new_piece;
                 indices[current_piece_index] = current_length;
                 current_length += content.length();
                 current_piece_index += 1;
@@ -187,21 +188,19 @@ public class ArrayRope implements CharSequence {
             if (piecesLength + appended.piecesLength > pieces.length) {
                 expand(appended.piecesLength);
             }
+            int current_length = length();
             System.arraycopy(appended.pieces, 0, pieces, piecesLength, appended.piecesLength);
-            System.arraycopy(appended.indices, 0, indices, piecesLength, appended.piecesLength);
+            for (int i = 0; i < appended.piecesLength; i++ ) {
+                indices[piecesLength + i] = current_length + appended.indices[i];
+            }
             piecesLength += appended.piecesLength;
         } else {
             if (piecesLength + 1 > pieces.length) {
                 expand(1);
             }
-            ArrayRopePiece new_piece;
-            if (cs instanceof ArrayRopePiece piece) {
-                new_piece = piece;
-            } else {
-                new_piece = new ArrayRopePiece(cs);
-            }
+            ArrayRopePiece new_piece = cs instanceof ArrayRopePiece piece ? piece : new ArrayRopePiece(cs);
             pieces[piecesLength] = new_piece;
-            indices[piecesLength] = indices[piecesLength - 1] + new_piece.length();
+            indices[piecesLength] = length();
             piecesLength += 1;
         }
         return this;
@@ -227,9 +226,10 @@ public class ArrayRope implements CharSequence {
     public String toString() {
         char[] charBuffer = new char[this.length()];
         int pos = 0;
-        for (ArrayRopePiece piece : this.pieces) {
-            for (int i = 0; i < piece.length(); i++) {
-                charBuffer[pos + i] = piece.content.charAt(i + piece.start);
+        for (int i = 0; i < piecesLength; i++) {
+            ArrayRopePiece piece = pieces[i];
+            for (int j = 0; j < piece.length(); j++) {
+                charBuffer[pos + j] = piece.content.charAt(j + piece.start);
             }
             pos += piece.length();
         }
@@ -238,6 +238,7 @@ public class ArrayRope implements CharSequence {
 
     @Override
     public IntStream chars() {
+//        TODO: Add state to avoid search cost in charAt()
         return CharSequence.super.chars();
     }
 
