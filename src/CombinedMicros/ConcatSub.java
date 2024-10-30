@@ -34,9 +34,7 @@ public class ConcatSub {
             str1 = makeRandomAsciiString();
             str2 = makeRandomAsciiString();
             StringBuilder sb = new StringBuilder(str1);
-            for (int i = 0; i < concatIter; i++) {
-                sb.append(str2);
-            }
+            sb.append(String.valueOf(str2).repeat(concatIter));
             StringBuilder resultBuilder = new StringBuilder();
             for (int i : subStringsIndices) {
                 resultBuilder.append(sb.subSequence(i, i + subStringSize));

@@ -106,7 +106,7 @@ public class ArrayRope implements CharSequence {
 
 
     public ArrayRope() {
-        this.pieces = new ArrayList<ArrayRopePiece>(INITIAL_CAPACITY);
+        this.pieces = new ArrayList<>(INITIAL_CAPACITY);
         this.indices = new ArrayList<>(INITIAL_CAPACITY);
     }
     private ArrayRope(ArrayList<ArrayRopePiece> pieces, ArrayList<Integer> indices) {
