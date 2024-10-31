@@ -95,7 +95,6 @@ public class ArrayRope implements CharSequence {
 //        find the first and last piece
         int start_piece_index = searchPieceIndex(0, start);
         int end_piece_index = searchPieceIndex(start_piece_index, end);
-        end_piece_index += start_piece_index;
 //        locate subsequence in start and end pieces
         int char_index_in_start_piece = start - indices[start_piece_index];
         int char_index_in_end_piece = end - indices[end_piece_index];
@@ -106,11 +105,12 @@ public class ArrayRope implements CharSequence {
         ArrayRopePiece[] subPieces = new ArrayRopePiece[end_piece_index - start_piece_index + 1];
         ArrayRopePiece first = this.pieces[start_piece_index];
         subPieces[0] = first.subSequence(char_index_in_start_piece, first.length());
-        for (int i = start_piece_index + 1; i < end_piece_index; i++) {
-            subPieces[i - start_piece_index] = pieces[start_piece_index];
+        for (int i = 1; i < end_piece_index - start_piece_index; i++) {
+            subPieces[i] = pieces[start_piece_index + i];
         }
         ArrayRopePiece last = this.pieces[end_piece_index];
         subPieces[subPieces.length - 1] = last.subSequence(0, char_index_in_end_piece);
+        ArrayRope newRope = new ArrayRope(subPieces);
         return new ArrayRope(subPieces);
     }
 
@@ -143,6 +143,7 @@ public class ArrayRope implements CharSequence {
         }
         this.pieces = new ArrayRopePiece[pieces_size];
         this.indices = new int[pieces_size];
+        this.piecesLength = 0;
         int current_piece_index = 0;
         int current_length = 0;
         for (CharSequence content : contents) {
