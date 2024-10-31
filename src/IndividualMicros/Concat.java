@@ -3,32 +3,42 @@ package IndividualMicros;
 import org.openjdk.jmh.annotations.*;
 import org.openjdk.jmh.infra.Blackhole;
 
-import java.util.Arrays;
-import java.util.Formatter;
-import java.util.List;
-import java.util.StringJoiner;
+import CustomString.ArrayRope;
+import java.util.*;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 
+import static utils.Utils.makeRandomString;
+
 @Fork(value = 1)
-@Warmup(iterations = 4)
-@Measurement(iterations = 2)
+@Warmup(iterations = 3, time = 5, timeUnit = TimeUnit.SECONDS)
+@Measurement(iterations = 2, time = 5, timeUnit = TimeUnit.SECONDS)
 @BenchmarkMode(Mode.AverageTime)
 @OutputTimeUnit(TimeUnit.MICROSECONDS)
 
 public class Concat {
     @State(Scope.Thread)
     public static class ConcatBenchmarkState {
-        public final int iter = 100;
-        public final String str1 = "String";
-        public final String str2 = "Concat";
-        public final String formatStr = "%s".repeat(iter);
-        public String[] str2Arr = new String[iter];
-        public String[] str1str2Arr = new String[iter + 1];
+        @Param({"100", "1000", "10000"})
+        public int iter;
+        public final int seed = 0;
+        public final Random rand = new Random(seed);
+        @Param({"5", "10", "50", "100", "500"})
+        public int stringLength;
+        public String str1;
+        public String str2;
+        public String formatStr;
+        public String[] str2Arr;
+        public String[] str1str2Arr;
         public String result;
         @Setup
         public void setup() {
+            str1 = makeRandomString(stringLength, rand);
+            str2 = makeRandomString(stringLength, rand);
+            formatStr = "%s".repeat(iter);
+            str2Arr = new String[iter];
             Arrays.fill(str2Arr, str2);
+            str1str2Arr = new String[iter + 1];
             str1str2Arr[0] = str1;
             Arrays.fill(str1str2Arr, 1, iter + 1, str2);
             result = str1 + String.join("", str2Arr);
@@ -145,14 +155,17 @@ public class Concat {
         return str;
     }
 
+    public static String stringBuilderRepeat(String head, String tail, int repeat) {
+        StringBuilder builder = new StringBuilder(head);
+        for (int i = 0; i < repeat; i++) {
+            builder.append(tail);
+        }
+        return builder.toString();
+    }
+
     @Benchmark
     public String stringBuilder(ConcatBenchmarkState state, Blackhole bh) {
-        StringBuilder builder = new StringBuilder();
-        builder.append(state.str1);
-        for(int i = 0; i < state.iter; i++) {
-            builder.append(state.str2);
-        }
-        String str = builder.toString();
+        String str = stringBuilderRepeat(state.str1, state.str2, state.iter);
         bh.consume(str);
         return str;
     }
@@ -170,14 +183,18 @@ public class Concat {
         return str;
     }
 
+    public static String stringJoinerRepeat(String head, String tail, int repeat) {
+        StringJoiner joiner = new StringJoiner("");
+        joiner.add(head);
+        for (int i = 0; i < repeat; i++) {
+            joiner.add(tail);
+        }
+        return joiner.toString();
+    }
+
     @Benchmark
     public String stringJoiner(ConcatBenchmarkState state, Blackhole bh) {
-        StringJoiner joiner = new StringJoiner("");
-        joiner.add("String");
-        for(int i = 0; i < state.iter; i++) {
-            joiner.add(state.str2);
-        }
-        String str = joiner.toString();
+        String str = stringJoinerRepeat(state.str1, state.str2, state.iter);
         bh.consume(str);
         return str;
     }
@@ -219,9 +236,9 @@ public class Concat {
         return str;
     }
 
-//    @Benchmark
-//    public String arrayRope(ConcatBenchmarkState state, Blackhole bh) {
-//        ArrayRope arrayRope = new ArrayRope(state.str1str2Arr);
-//        return arrayRope.toString();
-//    }
+    @Benchmark
+    public String arrayRope(ConcatBenchmarkState state, Blackhole bh) {
+        ArrayRope arrayRope = new ArrayRope(state.str1str2Arr);
+        return arrayRope.toString();
+    }
 }

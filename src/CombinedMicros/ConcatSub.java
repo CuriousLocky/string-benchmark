@@ -5,20 +5,27 @@ import org.openjdk.jmh.annotations.*;
 import org.openjdk.jmh.infra.Blackhole;
 
 import java.util.Random;
+import java.util.StringJoiner;
 import java.util.concurrent.TimeUnit;
 
+import static IndividualMicros.Concat.stringBuilderRepeat;
+import static utils.Utils.makeRandomString;
+
 @Fork(value = 1)
-@Warmup(iterations = 4)
-@Measurement(iterations = 2)
+@Warmup(iterations = 3, time = 5, timeUnit = TimeUnit.SECONDS)
+@Measurement(iterations = 2, time = 5, timeUnit = TimeUnit.SECONDS)
 @BenchmarkMode(Mode.AverageTime)
 @OutputTimeUnit(TimeUnit.MICROSECONDS)
 public class ConcatSub {
     @State(Scope.Thread)
     public static class ConcatSubState {
-        private final int concatIter = 1000;
-        private final int subIter = 1000;
-        private final int stringSize = 1000;
-        public final int subStringSize = 100;
+        @Param({"10", "100", "1000"})
+        public int concatIter = 1000;
+        @Param({"10", "100", "1000"})
+        public int subIter = 1000;
+        @Param({"5", "100", "1000"})
+        public int stringSize = 1000;
+        public final int subStringSize = 5;
         public final boolean checkResult = false;
         private final int seed = 0;
         private final Random rand = new Random(seed);
@@ -28,32 +35,20 @@ public class ConcatSub {
         public final int[] subStringsIndices = new int[subIter];
         @Setup
         public void setup() {
-            for (int i = 0; i < concatIter; i++) {
+            for (int i = 0; i < subIter; i++) {
                 subStringsIndices[i] = i;
             }
-            str1 = makeRandomAsciiString();
-            str2 = makeRandomAsciiString();
-            StringBuilder sb = new StringBuilder(str1);
-            sb.append(String.valueOf(str2).repeat(concatIter));
-            StringBuilder resultBuilder = new StringBuilder();
-            for (int i : subStringsIndices) {
-                resultBuilder.append(sb.subSequence(i, i + subStringSize));
-            }
-            result = resultBuilder.toString();
-        }
-        private String makeRandomAsciiString() {
-            char[] chars = new char[stringSize];
-            for (int i = 0; i < stringSize; i++) {
-                chars[i] = (char) ((32 + rand.nextInt()) % 127);
-            }
-            return new String(chars);
+            str1 = makeRandomString(stringSize, rand);
+            str2 = makeRandomString(stringSize, rand);
         }
     }
 
     @Benchmark
     public void stringBuilderNoMat(ConcatSubState state, Blackhole bh) {
         StringBuilder srcBuilder = new StringBuilder(state.str1);
-        srcBuilder.append(String.valueOf(state.str2).repeat(state.concatIter));
+        for (int i = 0; i < state.concatIter; i++) {
+            srcBuilder.append(state.str2);
+        }
         StringBuilder tgtBuilder = new StringBuilder();
         for (int i : state.subStringsIndices) {
             tgtBuilder.append(srcBuilder.subSequence(i, i + state.subStringSize));
@@ -74,14 +69,28 @@ public class ConcatSub {
 
     @Benchmark
     public void stringBuilder(ConcatSubState state, Blackhole bh) {
-        StringBuilder srcBuilder = new StringBuilder(state.str1);
-        srcBuilder.append(String.valueOf(state.str2).repeat(state.concatIter));
         StringBuilder tgtBuilder = new StringBuilder();
-        String srcStr = srcBuilder.toString();
+        String srcStr = stringBuilderRepeat(state.str1, state.str2, state.concatIter);
         for (int i : state.subStringsIndices) {
             tgtBuilder.append(srcStr, i, i + state.subStringSize);
         }
         String result = tgtBuilder.toString();
+        bh.consume(result);
+    }
+
+    @Benchmark
+    public void stringJoiner(ConcatSubState state, Blackhole bh) {
+        StringJoiner srcJoiner = new StringJoiner("");
+        srcJoiner.add(state.str1);
+        for (int i = 0; i < state.concatIter; i++) {
+            srcJoiner.add(state.str2);
+        }
+        String srcStr = srcJoiner.toString();
+        StringJoiner tgtJoiner = new StringJoiner("");
+        for (int i : state.subStringsIndices) {
+            tgtJoiner.add(srcStr.subSequence(i, i + state.subStringSize));
+        }
+        String result = tgtJoiner.toString();
         bh.consume(result);
     }
 

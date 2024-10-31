@@ -7,8 +7,9 @@ import java.util.*;
 import java.util.concurrent.TimeUnit;
 
 @Fork(value = 1)
-@Warmup(iterations = 4)
-@BenchmarkMode(Mode.Throughput)
+@Warmup(iterations = 3, time = 5, timeUnit = TimeUnit.SECONDS)
+@Measurement(iterations = 2, time = 5, timeUnit = TimeUnit.SECONDS)
+@BenchmarkMode(Mode.AverageTime)
 @OutputTimeUnit(TimeUnit.MICROSECONDS)
 
 public class Compare {
