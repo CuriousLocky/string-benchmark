@@ -1,0 +1,3308 @@
+[
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "IndividualMicros.Match.indexOf",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/mnt/sdb/hexiang/openjdk-oracle-23.0.1/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/lib/idea_rt.jar=40087:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "patternSize" : "3",
+            "traceSize" : "20"
+        },
+        "primaryMetric" : {
+            "score" : 1.866538233045733,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 1.8641850280585037,
+                "50.0" : 1.866538233045733,
+                "90.0" : 1.8688914380329622,
+                "95.0" : 1.8688914380329622,
+                "99.0" : 1.8688914380329622,
+                "99.9" : 1.8688914380329622,
+                "99.99" : 1.8688914380329622,
+                "99.999" : 1.8688914380329622,
+                "99.9999" : 1.8688914380329622,
+                "100.0" : 1.8688914380329622
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    1.8641850280585037,
+                    1.8688914380329622
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "IndividualMicros.Match.indexOf",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/mnt/sdb/hexiang/openjdk-oracle-23.0.1/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/lib/idea_rt.jar=40087:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "patternSize" : "3",
+            "traceSize" : "100"
+        },
+        "primaryMetric" : {
+            "score" : 3.924538572369907,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 3.924056229768701,
+                "50.0" : 3.924538572369907,
+                "90.0" : 3.9250209149711126,
+                "95.0" : 3.9250209149711126,
+                "99.0" : 3.9250209149711126,
+                "99.9" : 3.9250209149711126,
+                "99.99" : 3.9250209149711126,
+                "99.999" : 3.9250209149711126,
+                "99.9999" : 3.9250209149711126,
+                "100.0" : 3.9250209149711126
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    3.924056229768701,
+                    3.9250209149711126
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "IndividualMicros.Match.indexOf",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/mnt/sdb/hexiang/openjdk-oracle-23.0.1/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/lib/idea_rt.jar=40087:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "patternSize" : "3",
+            "traceSize" : "500"
+        },
+        "primaryMetric" : {
+            "score" : 17.170100470013264,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 17.157227422924493,
+                "50.0" : 17.170100470013264,
+                "90.0" : 17.182973517102035,
+                "95.0" : 17.182973517102035,
+                "99.0" : 17.182973517102035,
+                "99.9" : 17.182973517102035,
+                "99.99" : 17.182973517102035,
+                "99.999" : 17.182973517102035,
+                "99.9999" : 17.182973517102035,
+                "100.0" : 17.182973517102035
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    17.157227422924493,
+                    17.182973517102035
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "IndividualMicros.Match.indexOf",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/mnt/sdb/hexiang/openjdk-oracle-23.0.1/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/lib/idea_rt.jar=40087:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "patternSize" : "3",
+            "traceSize" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 33.06919816656318,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 33.06302827899473,
+                "50.0" : 33.06919816656318,
+                "90.0" : 33.07536805413164,
+                "95.0" : 33.07536805413164,
+                "99.0" : 33.07536805413164,
+                "99.9" : 33.07536805413164,
+                "99.99" : 33.07536805413164,
+                "99.999" : 33.07536805413164,
+                "99.9999" : 33.07536805413164,
+                "100.0" : 33.07536805413164
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    33.07536805413164,
+                    33.06302827899473
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "IndividualMicros.Match.indexOf",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/mnt/sdb/hexiang/openjdk-oracle-23.0.1/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/lib/idea_rt.jar=40087:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "patternSize" : "10",
+            "traceSize" : "100"
+        },
+        "primaryMetric" : {
+            "score" : 5.13108354784147,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 5.127265134354988,
+                "50.0" : 5.13108354784147,
+                "90.0" : 5.1349019613279525,
+                "95.0" : 5.1349019613279525,
+                "99.0" : 5.1349019613279525,
+                "99.9" : 5.1349019613279525,
+                "99.99" : 5.1349019613279525,
+                "99.999" : 5.1349019613279525,
+                "99.9999" : 5.1349019613279525,
+                "100.0" : 5.1349019613279525
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    5.1349019613279525,
+                    5.127265134354988
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "IndividualMicros.Match.indexOf",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/mnt/sdb/hexiang/openjdk-oracle-23.0.1/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/lib/idea_rt.jar=40087:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "patternSize" : "10",
+            "traceSize" : "500"
+        },
+        "primaryMetric" : {
+            "score" : 17.86967382996056,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 17.86670640067748,
+                "50.0" : 17.86967382996056,
+                "90.0" : 17.87264125924364,
+                "95.0" : 17.87264125924364,
+                "99.0" : 17.87264125924364,
+                "99.9" : 17.87264125924364,
+                "99.99" : 17.87264125924364,
+                "99.999" : 17.87264125924364,
+                "99.9999" : 17.87264125924364,
+                "100.0" : 17.87264125924364
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    17.87264125924364,
+                    17.86670640067748
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "IndividualMicros.Match.indexOf",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/mnt/sdb/hexiang/openjdk-oracle-23.0.1/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/lib/idea_rt.jar=40087:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "patternSize" : "10",
+            "traceSize" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 33.734456476328006,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 33.70331154546067,
+                "50.0" : 33.734456476328006,
+                "90.0" : 33.765601407195334,
+                "95.0" : 33.765601407195334,
+                "99.0" : 33.765601407195334,
+                "99.9" : 33.765601407195334,
+                "99.99" : 33.765601407195334,
+                "99.999" : 33.765601407195334,
+                "99.9999" : 33.765601407195334,
+                "100.0" : 33.765601407195334
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    33.70331154546067,
+                    33.765601407195334
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "IndividualMicros.Match.indexOf",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/mnt/sdb/hexiang/openjdk-oracle-23.0.1/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/lib/idea_rt.jar=40087:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "patternSize" : "100",
+            "traceSize" : "500"
+        },
+        "primaryMetric" : {
+            "score" : 20.220946256388196,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 20.175451092658047,
+                "50.0" : 20.220946256388196,
+                "90.0" : 20.266441420118344,
+                "95.0" : 20.266441420118344,
+                "99.0" : 20.266441420118344,
+                "99.9" : 20.266441420118344,
+                "99.99" : 20.266441420118344,
+                "99.999" : 20.266441420118344,
+                "99.9999" : 20.266441420118344,
+                "100.0" : 20.266441420118344
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    20.266441420118344,
+                    20.175451092658047
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "IndividualMicros.Match.indexOf",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/mnt/sdb/hexiang/openjdk-oracle-23.0.1/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/lib/idea_rt.jar=40087:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "patternSize" : "100",
+            "traceSize" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 35.9000497130013,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 35.86772809433637,
+                "50.0" : 35.9000497130013,
+                "90.0" : 35.93237133166623,
+                "95.0" : 35.93237133166623,
+                "99.0" : 35.93237133166623,
+                "99.9" : 35.93237133166623,
+                "99.99" : 35.93237133166623,
+                "99.999" : 35.93237133166623,
+                "99.9999" : 35.93237133166623,
+                "100.0" : 35.93237133166623
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    35.86772809433637,
+                    35.93237133166623
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "IndividualMicros.Match.regexFind",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/mnt/sdb/hexiang/openjdk-oracle-23.0.1/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/lib/idea_rt.jar=40087:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "patternSize" : "3",
+            "traceSize" : "20"
+        },
+        "primaryMetric" : {
+            "score" : 20.714606336382406,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 20.66201838429752,
+                "50.0" : 20.714606336382406,
+                "90.0" : 20.76719428846729,
+                "95.0" : 20.76719428846729,
+                "99.0" : 20.76719428846729,
+                "99.9" : 20.76719428846729,
+                "99.99" : 20.76719428846729,
+                "99.999" : 20.76719428846729,
+                "99.9999" : 20.76719428846729,
+                "100.0" : 20.76719428846729
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    20.76719428846729,
+                    20.66201838429752
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "IndividualMicros.Match.regexFind",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/mnt/sdb/hexiang/openjdk-oracle-23.0.1/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/lib/idea_rt.jar=40087:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "patternSize" : "3",
+            "traceSize" : "100"
+        },
+        "primaryMetric" : {
+            "score" : 73.1187560054486,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 73.1045639619883,
+                "50.0" : 73.1187560054486,
+                "90.0" : 73.13294804890891,
+                "95.0" : 73.13294804890891,
+                "99.0" : 73.13294804890891,
+                "99.9" : 73.13294804890891,
+                "99.99" : 73.13294804890891,
+                "99.999" : 73.13294804890891,
+                "99.9999" : 73.13294804890891,
+                "100.0" : 73.13294804890891
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    73.1045639619883,
+                    73.13294804890891
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "IndividualMicros.Match.regexFind",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/mnt/sdb/hexiang/openjdk-oracle-23.0.1/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/lib/idea_rt.jar=40087:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "patternSize" : "3",
+            "traceSize" : "500"
+        },
+        "primaryMetric" : {
+            "score" : 300.9969432840965,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 293.4296817675019,
+                "50.0" : 300.9969432840965,
+                "90.0" : 308.56420480069113,
+                "95.0" : 308.56420480069113,
+                "99.0" : 308.56420480069113,
+                "99.9" : 308.56420480069113,
+                "99.99" : 308.56420480069113,
+                "99.999" : 308.56420480069113,
+                "99.9999" : 308.56420480069113,
+                "100.0" : 308.56420480069113
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    308.56420480069113,
+                    293.4296817675019
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "IndividualMicros.Match.regexFind",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/mnt/sdb/hexiang/openjdk-oracle-23.0.1/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/lib/idea_rt.jar=40087:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "patternSize" : "3",
+            "traceSize" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 587.6704459803248,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 582.3176045184581,
+                "50.0" : 587.6704459803248,
+                "90.0" : 593.0232874421914,
+                "95.0" : 593.0232874421914,
+                "99.0" : 593.0232874421914,
+                "99.9" : 593.0232874421914,
+                "99.99" : 593.0232874421914,
+                "99.999" : 593.0232874421914,
+                "99.9999" : 593.0232874421914,
+                "100.0" : 593.0232874421914
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    593.0232874421914,
+                    582.3176045184581
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "IndividualMicros.Match.regexFind",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/mnt/sdb/hexiang/openjdk-oracle-23.0.1/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/lib/idea_rt.jar=40087:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "patternSize" : "10",
+            "traceSize" : "100"
+        },
+        "primaryMetric" : {
+            "score" : 30.48982942545303,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 30.377679451039477,
+                "50.0" : 30.48982942545303,
+                "90.0" : 30.601979399866583,
+                "95.0" : 30.601979399866583,
+                "99.0" : 30.601979399866583,
+                "99.9" : 30.601979399866583,
+                "99.99" : 30.601979399866583,
+                "99.999" : 30.601979399866583,
+                "99.9999" : 30.601979399866583,
+                "100.0" : 30.601979399866583
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    30.601979399866583,
+                    30.377679451039477
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "IndividualMicros.Match.regexFind",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/mnt/sdb/hexiang/openjdk-oracle-23.0.1/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/lib/idea_rt.jar=40087:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "patternSize" : "10",
+            "traceSize" : "500"
+        },
+        "primaryMetric" : {
+            "score" : 57.90214667012474,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 56.904586810060316,
+                "50.0" : 57.90214667012474,
+                "90.0" : 58.89970653018917,
+                "95.0" : 58.89970653018917,
+                "99.0" : 58.89970653018917,
+                "99.9" : 58.89970653018917,
+                "99.99" : 58.89970653018917,
+                "99.999" : 58.89970653018917,
+                "99.9999" : 58.89970653018917,
+                "100.0" : 58.89970653018917
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    58.89970653018917,
+                    56.904586810060316
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "IndividualMicros.Match.regexFind",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/mnt/sdb/hexiang/openjdk-oracle-23.0.1/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/lib/idea_rt.jar=40087:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "patternSize" : "10",
+            "traceSize" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 88.68591365380382,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 87.37340096804068,
+                "50.0" : 88.68591365380382,
+                "90.0" : 89.99842633956695,
+                "95.0" : 89.99842633956695,
+                "99.0" : 89.99842633956695,
+                "99.9" : 89.99842633956695,
+                "99.99" : 89.99842633956695,
+                "99.999" : 89.99842633956695,
+                "99.9999" : 89.99842633956695,
+                "100.0" : 89.99842633956695
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    89.99842633956695,
+                    87.37340096804068
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "IndividualMicros.Match.regexSplit",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/mnt/sdb/hexiang/openjdk-oracle-23.0.1/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/lib/idea_rt.jar=40087:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "patternSize" : "3",
+            "traceSize" : "20"
+        },
+        "primaryMetric" : {
+            "score" : 36.03717358560542,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 35.196604866752075,
+                "50.0" : 36.03717358560542,
+                "90.0" : 36.87774230445877,
+                "95.0" : 36.87774230445877,
+                "99.0" : 36.87774230445877,
+                "99.9" : 36.87774230445877,
+                "99.99" : 36.87774230445877,
+                "99.999" : 36.87774230445877,
+                "99.9999" : 36.87774230445877,
+                "100.0" : 36.87774230445877
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    36.87774230445877,
+                    35.196604866752075
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "IndividualMicros.Match.regexSplit",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/mnt/sdb/hexiang/openjdk-oracle-23.0.1/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/lib/idea_rt.jar=40087:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "patternSize" : "3",
+            "traceSize" : "100"
+        },
+        "primaryMetric" : {
+            "score" : 77.80738584966167,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 77.06730449123023,
+                "50.0" : 77.80738584966167,
+                "90.0" : 78.54746720809312,
+                "95.0" : 78.54746720809312,
+                "99.0" : 78.54746720809312,
+                "99.9" : 78.54746720809312,
+                "99.99" : 78.54746720809312,
+                "99.999" : 78.54746720809312,
+                "99.9999" : 78.54746720809312,
+                "100.0" : 78.54746720809312
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    78.54746720809312,
+                    77.06730449123023
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "IndividualMicros.Match.regexSplit",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/mnt/sdb/hexiang/openjdk-oracle-23.0.1/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/lib/idea_rt.jar=40087:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "patternSize" : "3",
+            "traceSize" : "500"
+        },
+        "primaryMetric" : {
+            "score" : 268.3184979965642,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 266.75512552680715,
+                "50.0" : 268.3184979965642,
+                "90.0" : 269.88187046632123,
+                "95.0" : 269.88187046632123,
+                "99.0" : 269.88187046632123,
+                "99.9" : 269.88187046632123,
+                "99.99" : 269.88187046632123,
+                "99.999" : 269.88187046632123,
+                "99.9999" : 269.88187046632123,
+                "100.0" : 269.88187046632123
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    269.88187046632123,
+                    266.75512552680715
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "IndividualMicros.Match.regexSplit",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/mnt/sdb/hexiang/openjdk-oracle-23.0.1/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/lib/idea_rt.jar=40087:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "patternSize" : "3",
+            "traceSize" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 506.3125474275115,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 500.56401181181184,
+                "50.0" : 506.3125474275115,
+                "90.0" : 512.0610830432112,
+                "95.0" : 512.0610830432112,
+                "99.0" : 512.0610830432112,
+                "99.9" : 512.0610830432112,
+                "99.99" : 512.0610830432112,
+                "99.999" : 512.0610830432112,
+                "99.9999" : 512.0610830432112,
+                "100.0" : 512.0610830432112
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    512.0610830432112,
+                    500.56401181181184
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "IndividualMicros.Match.regexSplit",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/mnt/sdb/hexiang/openjdk-oracle-23.0.1/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/lib/idea_rt.jar=40087:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "patternSize" : "10",
+            "traceSize" : "100"
+        },
+        "primaryMetric" : {
+            "score" : 51.07614840175365,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 50.79198079130479,
+                "50.0" : 51.07614840175365,
+                "90.0" : 51.36031601220251,
+                "95.0" : 51.36031601220251,
+                "99.0" : 51.36031601220251,
+                "99.9" : 51.36031601220251,
+                "99.99" : 51.36031601220251,
+                "99.999" : 51.36031601220251,
+                "99.9999" : 51.36031601220251,
+                "100.0" : 51.36031601220251
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    50.79198079130479,
+                    51.36031601220251
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "IndividualMicros.Match.regexSplit",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/mnt/sdb/hexiang/openjdk-oracle-23.0.1/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/lib/idea_rt.jar=40087:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "patternSize" : "10",
+            "traceSize" : "500"
+        },
+        "primaryMetric" : {
+            "score" : 98.50459028439398,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 97.35524165255144,
+                "50.0" : 98.50459028439398,
+                "90.0" : 99.65393891623653,
+                "95.0" : 99.65393891623653,
+                "99.0" : 99.65393891623653,
+                "99.9" : 99.65393891623653,
+                "99.99" : 99.65393891623653,
+                "99.999" : 99.65393891623653,
+                "99.9999" : 99.65393891623653,
+                "100.0" : 99.65393891623653
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    99.65393891623653,
+                    97.35524165255144
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "IndividualMicros.Match.regexSplit",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/mnt/sdb/hexiang/openjdk-oracle-23.0.1/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/lib/idea_rt.jar=40087:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "patternSize" : "10",
+            "traceSize" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 135.5581070849554,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 133.96597789803627,
+                "50.0" : 135.5581070849554,
+                "90.0" : 137.1502362718745,
+                "95.0" : 137.1502362718745,
+                "99.0" : 137.1502362718745,
+                "99.9" : 137.1502362718745,
+                "99.99" : 137.1502362718745,
+                "99.999" : 137.1502362718745,
+                "99.9999" : 137.1502362718745,
+                "100.0" : 137.1502362718745
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    137.1502362718745,
+                    133.96597789803627
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "IndividualMicros.Match.slidingCharAt",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/mnt/sdb/hexiang/openjdk-oracle-23.0.1/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/lib/idea_rt.jar=40087:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "patternSize" : "3",
+            "traceSize" : "20"
+        },
+        "primaryMetric" : {
+            "score" : 3.148901478192778,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 3.1483660893161827,
+                "50.0" : 3.148901478192778,
+                "90.0" : 3.149436867069374,
+                "95.0" : 3.149436867069374,
+                "99.0" : 3.149436867069374,
+                "99.9" : 3.149436867069374,
+                "99.99" : 3.149436867069374,
+                "99.999" : 3.149436867069374,
+                "99.9999" : 3.149436867069374,
+                "100.0" : 3.149436867069374
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    3.1483660893161827,
+                    3.149436867069374
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "IndividualMicros.Match.slidingCharAt",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/mnt/sdb/hexiang/openjdk-oracle-23.0.1/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/lib/idea_rt.jar=40087:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "patternSize" : "3",
+            "traceSize" : "100"
+        },
+        "primaryMetric" : {
+            "score" : 13.605814761079355,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 13.600564447913749,
+                "50.0" : 13.605814761079355,
+                "90.0" : 13.61106507424496,
+                "95.0" : 13.61106507424496,
+                "99.0" : 13.61106507424496,
+                "99.9" : 13.61106507424496,
+                "99.99" : 13.61106507424496,
+                "99.999" : 13.61106507424496,
+                "99.9999" : 13.61106507424496,
+                "100.0" : 13.61106507424496
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    13.600564447913749,
+                    13.61106507424496
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "IndividualMicros.Match.slidingCharAt",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/mnt/sdb/hexiang/openjdk-oracle-23.0.1/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/lib/idea_rt.jar=40087:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "patternSize" : "3",
+            "traceSize" : "500"
+        },
+        "primaryMetric" : {
+            "score" : 66.33197411235555,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 66.33176325913348,
+                "50.0" : 66.33197411235555,
+                "90.0" : 66.33218496557762,
+                "95.0" : 66.33218496557762,
+                "99.0" : 66.33218496557762,
+                "99.9" : 66.33218496557762,
+                "99.99" : 66.33218496557762,
+                "99.999" : 66.33218496557762,
+                "99.9999" : 66.33218496557762,
+                "100.0" : 66.33218496557762
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    66.33176325913348,
+                    66.33218496557762
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "IndividualMicros.Match.slidingCharAt",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/mnt/sdb/hexiang/openjdk-oracle-23.0.1/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/lib/idea_rt.jar=40087:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "patternSize" : "3",
+            "traceSize" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 125.5958495334711,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 121.53628997131885,
+                "50.0" : 125.5958495334711,
+                "90.0" : 129.65540909562333,
+                "95.0" : 129.65540909562333,
+                "99.0" : 129.65540909562333,
+                "99.9" : 129.65540909562333,
+                "99.99" : 129.65540909562333,
+                "99.999" : 129.65540909562333,
+                "99.9999" : 129.65540909562333,
+                "100.0" : 129.65540909562333
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    129.65540909562333,
+                    121.53628997131885
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "IndividualMicros.Match.slidingCharAt",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/mnt/sdb/hexiang/openjdk-oracle-23.0.1/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/lib/idea_rt.jar=40087:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "patternSize" : "10",
+            "traceSize" : "100"
+        },
+        "primaryMetric" : {
+            "score" : 15.384981153455866,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 15.345449216388483,
+                "50.0" : 15.384981153455866,
+                "90.0" : 15.42451309052325,
+                "95.0" : 15.42451309052325,
+                "99.0" : 15.42451309052325,
+                "99.9" : 15.42451309052325,
+                "99.99" : 15.42451309052325,
+                "99.999" : 15.42451309052325,
+                "99.9999" : 15.42451309052325,
+                "100.0" : 15.42451309052325
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    15.42451309052325,
+                    15.345449216388483
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "IndividualMicros.Match.slidingCharAt",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/mnt/sdb/hexiang/openjdk-oracle-23.0.1/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/lib/idea_rt.jar=40087:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "patternSize" : "10",
+            "traceSize" : "500"
+        },
+        "primaryMetric" : {
+            "score" : 64.09188710904213,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 64.04785761127121,
+                "50.0" : 64.09188710904213,
+                "90.0" : 64.13591660681305,
+                "95.0" : 64.13591660681305,
+                "99.0" : 64.13591660681305,
+                "99.9" : 64.13591660681305,
+                "99.99" : 64.13591660681305,
+                "99.999" : 64.13591660681305,
+                "99.9999" : 64.13591660681305,
+                "100.0" : 64.13591660681305
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    64.04785761127121,
+                    64.13591660681305
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "IndividualMicros.Match.slidingCharAt",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/mnt/sdb/hexiang/openjdk-oracle-23.0.1/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/lib/idea_rt.jar=40087:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "patternSize" : "10",
+            "traceSize" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 128.24183122972386,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 123.58845495439827,
+                "50.0" : 128.24183122972386,
+                "90.0" : 132.89520750504943,
+                "95.0" : 132.89520750504943,
+                "99.0" : 132.89520750504943,
+                "99.9" : 132.89520750504943,
+                "99.99" : 132.89520750504943,
+                "99.999" : 132.89520750504943,
+                "99.9999" : 132.89520750504943,
+                "100.0" : 132.89520750504943
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    132.89520750504943,
+                    123.58845495439827
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "IndividualMicros.Match.slidingCharAt",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/mnt/sdb/hexiang/openjdk-oracle-23.0.1/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/lib/idea_rt.jar=40087:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "patternSize" : "100",
+            "traceSize" : "500"
+        },
+        "primaryMetric" : {
+            "score" : 88.86129727020868,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 88.8529805255957,
+                "50.0" : 88.86129727020868,
+                "90.0" : 88.86961401482166,
+                "95.0" : 88.86961401482166,
+                "99.0" : 88.86961401482166,
+                "99.9" : 88.86961401482166,
+                "99.99" : 88.86961401482166,
+                "99.999" : 88.86961401482166,
+                "99.9999" : 88.86961401482166,
+                "100.0" : 88.86961401482166
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    88.86961401482166,
+                    88.8529805255957
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "IndividualMicros.Match.slidingCharAt",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/mnt/sdb/hexiang/openjdk-oracle-23.0.1/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/lib/idea_rt.jar=40087:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "patternSize" : "100",
+            "traceSize" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 154.23688738268322,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 141.9017660045403,
+                "50.0" : 154.23688738268322,
+                "90.0" : 166.57200876082612,
+                "95.0" : 166.57200876082612,
+                "99.0" : 166.57200876082612,
+                "99.9" : 166.57200876082612,
+                "99.99" : 166.57200876082612,
+                "99.999" : 166.57200876082612,
+                "99.9999" : 166.57200876082612,
+                "100.0" : 166.57200876082612
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    166.57200876082612,
+                    141.9017660045403
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "IndividualMicros.Match.slidingCharAtNoOverlap",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/mnt/sdb/hexiang/openjdk-oracle-23.0.1/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/lib/idea_rt.jar=40087:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "patternSize" : "3",
+            "traceSize" : "20"
+        },
+        "primaryMetric" : {
+            "score" : 3.680890810532307,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 3.679880120746142,
+                "50.0" : 3.680890810532307,
+                "90.0" : 3.6819015003184723,
+                "95.0" : 3.6819015003184723,
+                "99.0" : 3.6819015003184723,
+                "99.9" : 3.6819015003184723,
+                "99.99" : 3.6819015003184723,
+                "99.999" : 3.6819015003184723,
+                "99.9999" : 3.6819015003184723,
+                "100.0" : 3.6819015003184723
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    3.679880120746142,
+                    3.6819015003184723
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "IndividualMicros.Match.slidingCharAtNoOverlap",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/mnt/sdb/hexiang/openjdk-oracle-23.0.1/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/lib/idea_rt.jar=40087:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "patternSize" : "3",
+            "traceSize" : "100"
+        },
+        "primaryMetric" : {
+            "score" : 18.581979004525444,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 18.563601807266934,
+                "50.0" : 18.581979004525444,
+                "90.0" : 18.60035620178395,
+                "95.0" : 18.60035620178395,
+                "99.0" : 18.60035620178395,
+                "99.9" : 18.60035620178395,
+                "99.99" : 18.60035620178395,
+                "99.999" : 18.60035620178395,
+                "99.9999" : 18.60035620178395,
+                "100.0" : 18.60035620178395
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    18.563601807266934,
+                    18.60035620178395
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "IndividualMicros.Match.slidingCharAtNoOverlap",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/mnt/sdb/hexiang/openjdk-oracle-23.0.1/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/lib/idea_rt.jar=40087:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "patternSize" : "3",
+            "traceSize" : "500"
+        },
+        "primaryMetric" : {
+            "score" : 96.4747578569584,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 96.46927384627257,
+                "50.0" : 96.4747578569584,
+                "90.0" : 96.48024186764422,
+                "95.0" : 96.48024186764422,
+                "99.0" : 96.48024186764422,
+                "99.9" : 96.48024186764422,
+                "99.99" : 96.48024186764422,
+                "99.999" : 96.48024186764422,
+                "99.9999" : 96.48024186764422,
+                "100.0" : 96.48024186764422
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    96.48024186764422,
+                    96.46927384627257
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "IndividualMicros.Match.slidingCharAtNoOverlap",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/mnt/sdb/hexiang/openjdk-oracle-23.0.1/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/lib/idea_rt.jar=40087:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "patternSize" : "3",
+            "traceSize" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 205.77580747123946,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 205.5977903955267,
+                "50.0" : 205.77580747123946,
+                "90.0" : 205.95382454695223,
+                "95.0" : 205.95382454695223,
+                "99.0" : 205.95382454695223,
+                "99.9" : 205.95382454695223,
+                "99.99" : 205.95382454695223,
+                "99.999" : 205.95382454695223,
+                "99.9999" : 205.95382454695223,
+                "100.0" : 205.95382454695223
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    205.5977903955267,
+                    205.95382454695223
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "IndividualMicros.Match.slidingCharAtNoOverlap",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/mnt/sdb/hexiang/openjdk-oracle-23.0.1/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/lib/idea_rt.jar=40087:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "patternSize" : "10",
+            "traceSize" : "100"
+        },
+        "primaryMetric" : {
+            "score" : 14.635675238975029,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 14.634129829880509,
+                "50.0" : 14.635675238975029,
+                "90.0" : 14.63722064806955,
+                "95.0" : 14.63722064806955,
+                "99.0" : 14.63722064806955,
+                "99.9" : 14.63722064806955,
+                "99.99" : 14.63722064806955,
+                "99.999" : 14.63722064806955,
+                "99.9999" : 14.63722064806955,
+                "100.0" : 14.63722064806955
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    14.634129829880509,
+                    14.63722064806955
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "IndividualMicros.Match.slidingCharAtNoOverlap",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/mnt/sdb/hexiang/openjdk-oracle-23.0.1/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/lib/idea_rt.jar=40087:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "patternSize" : "10",
+            "traceSize" : "500"
+        },
+        "primaryMetric" : {
+            "score" : 93.19084257788563,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 92.88221074334113,
+                "50.0" : 93.19084257788563,
+                "90.0" : 93.49947441243012,
+                "95.0" : 93.49947441243012,
+                "99.0" : 93.49947441243012,
+                "99.9" : 93.49947441243012,
+                "99.99" : 93.49947441243012,
+                "99.999" : 93.49947441243012,
+                "99.9999" : 93.49947441243012,
+                "100.0" : 93.49947441243012
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    92.88221074334113,
+                    93.49947441243012
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "IndividualMicros.Match.slidingCharAtNoOverlap",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/mnt/sdb/hexiang/openjdk-oracle-23.0.1/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/lib/idea_rt.jar=40087:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "patternSize" : "10",
+            "traceSize" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 187.48582538928792,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 187.434442670265,
+                "50.0" : 187.48582538928792,
+                "90.0" : 187.53720810831084,
+                "95.0" : 187.53720810831084,
+                "99.0" : 187.53720810831084,
+                "99.9" : 187.53720810831084,
+                "99.99" : 187.53720810831084,
+                "99.999" : 187.53720810831084,
+                "99.9999" : 187.53720810831084,
+                "100.0" : 187.53720810831084
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    187.434442670265,
+                    187.53720810831084
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "IndividualMicros.Match.slidingCharAtNoOverlap",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/mnt/sdb/hexiang/openjdk-oracle-23.0.1/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/lib/idea_rt.jar=40087:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "patternSize" : "100",
+            "traceSize" : "500"
+        },
+        "primaryMetric" : {
+            "score" : 56.29346321349041,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 56.28892687731463,
+                "50.0" : 56.29346321349041,
+                "90.0" : 56.29799954966619,
+                "95.0" : 56.29799954966619,
+                "99.0" : 56.29799954966619,
+                "99.9" : 56.29799954966619,
+                "99.99" : 56.29799954966619,
+                "99.999" : 56.29799954966619,
+                "99.9999" : 56.29799954966619,
+                "100.0" : 56.29799954966619
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    56.29799954966619,
+                    56.28892687731463
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "IndividualMicros.Match.slidingCharAtNoOverlap",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/mnt/sdb/hexiang/openjdk-oracle-23.0.1/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/lib/idea_rt.jar=40087:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "patternSize" : "100",
+            "traceSize" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 164.71435252496062,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 163.1163360407085,
+                "50.0" : 164.71435252496062,
+                "90.0" : 166.31236900921274,
+                "95.0" : 166.31236900921274,
+                "99.0" : 166.31236900921274,
+                "99.9" : 166.31236900921274,
+                "99.99" : 166.31236900921274,
+                "99.999" : 166.31236900921274,
+                "99.9999" : 166.31236900921274,
+                "100.0" : 166.31236900921274
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    166.31236900921274,
+                    163.1163360407085
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "IndividualMicros.Match.slidingStartsWith",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/mnt/sdb/hexiang/openjdk-oracle-23.0.1/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/lib/idea_rt.jar=40087:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "patternSize" : "3",
+            "traceSize" : "20"
+        },
+        "primaryMetric" : {
+            "score" : 13.393277649029983,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 13.392440174190645,
+                "50.0" : 13.393277649029983,
+                "90.0" : 13.39411512386932,
+                "95.0" : 13.39411512386932,
+                "99.0" : 13.39411512386932,
+                "99.9" : 13.39411512386932,
+                "99.99" : 13.39411512386932,
+                "99.999" : 13.39411512386932,
+                "99.9999" : 13.39411512386932,
+                "100.0" : 13.39411512386932
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    13.392440174190645,
+                    13.39411512386932
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "IndividualMicros.Match.slidingStartsWith",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/mnt/sdb/hexiang/openjdk-oracle-23.0.1/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/lib/idea_rt.jar=40087:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "patternSize" : "3",
+            "traceSize" : "100"
+        },
+        "primaryMetric" : {
+            "score" : 68.19082645963027,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 68.17369000681663,
+                "50.0" : 68.19082645963027,
+                "90.0" : 68.2079629124439,
+                "95.0" : 68.2079629124439,
+                "99.0" : 68.2079629124439,
+                "99.9" : 68.2079629124439,
+                "99.99" : 68.2079629124439,
+                "99.999" : 68.2079629124439,
+                "99.9999" : 68.2079629124439,
+                "100.0" : 68.2079629124439
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    68.2079629124439,
+                    68.17369000681663
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "IndividualMicros.Match.slidingStartsWith",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/mnt/sdb/hexiang/openjdk-oracle-23.0.1/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/lib/idea_rt.jar=40087:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "patternSize" : "3",
+            "traceSize" : "500"
+        },
+        "primaryMetric" : {
+            "score" : 311.80949331356385,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 311.61896335535334,
+                "50.0" : 311.80949331356385,
+                "90.0" : 312.0000232717744,
+                "95.0" : 312.0000232717744,
+                "99.0" : 312.0000232717744,
+                "99.9" : 312.0000232717744,
+                "99.99" : 312.0000232717744,
+                "99.999" : 312.0000232717744,
+                "99.9999" : 312.0000232717744,
+                "100.0" : 312.0000232717744
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    312.0000232717744,
+                    311.61896335535334
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "IndividualMicros.Match.slidingStartsWith",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/mnt/sdb/hexiang/openjdk-oracle-23.0.1/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/lib/idea_rt.jar=40087:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "patternSize" : "3",
+            "traceSize" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 593.0951501185396,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 592.9986671409937,
+                "50.0" : 593.0951501185396,
+                "90.0" : 593.1916330960854,
+                "95.0" : 593.1916330960854,
+                "99.0" : 593.1916330960854,
+                "99.9" : 593.1916330960854,
+                "99.99" : 593.1916330960854,
+                "99.999" : 593.1916330960854,
+                "99.9999" : 593.1916330960854,
+                "100.0" : 593.1916330960854
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    592.9986671409937,
+                    593.1916330960854
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "IndividualMicros.Match.slidingStartsWith",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/mnt/sdb/hexiang/openjdk-oracle-23.0.1/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/lib/idea_rt.jar=40087:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "patternSize" : "10",
+            "traceSize" : "100"
+        },
+        "primaryMetric" : {
+            "score" : 47.489196074306975,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 47.45806030408291,
+                "50.0" : 47.489196074306975,
+                "90.0" : 47.52033184453103,
+                "95.0" : 47.52033184453103,
+                "99.0" : 47.52033184453103,
+                "99.9" : 47.52033184453103,
+                "99.99" : 47.52033184453103,
+                "99.999" : 47.52033184453103,
+                "99.9999" : 47.52033184453103,
+                "100.0" : 47.52033184453103
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    47.45806030408291,
+                    47.52033184453103
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "IndividualMicros.Match.slidingStartsWith",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/mnt/sdb/hexiang/openjdk-oracle-23.0.1/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/lib/idea_rt.jar=40087:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "patternSize" : "10",
+            "traceSize" : "500"
+        },
+        "primaryMetric" : {
+            "score" : 222.1220746933456,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 213.44727270787092,
+                "50.0" : 222.1220746933456,
+                "90.0" : 230.79687667882033,
+                "95.0" : 230.79687667882033,
+                "99.0" : 230.79687667882033,
+                "99.9" : 230.79687667882033,
+                "99.99" : 230.79687667882033,
+                "99.999" : 230.79687667882033,
+                "99.9999" : 230.79687667882033,
+                "100.0" : 230.79687667882033
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    213.44727270787092,
+                    230.79687667882033
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "IndividualMicros.Match.slidingStartsWith",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/mnt/sdb/hexiang/openjdk-oracle-23.0.1/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/lib/idea_rt.jar=40087:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "patternSize" : "10",
+            "traceSize" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 482.88415322819384,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 482.84782205271796,
+                "50.0" : 482.88415322819384,
+                "90.0" : 482.9204844036697,
+                "95.0" : 482.9204844036697,
+                "99.0" : 482.9204844036697,
+                "99.9" : 482.9204844036697,
+                "99.99" : 482.9204844036697,
+                "99.999" : 482.9204844036697,
+                "99.9999" : 482.9204844036697,
+                "100.0" : 482.9204844036697
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    482.9204844036697,
+                    482.84782205271796
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "IndividualMicros.Match.slidingStartsWith",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/mnt/sdb/hexiang/openjdk-oracle-23.0.1/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/lib/idea_rt.jar=40087:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "patternSize" : "100",
+            "traceSize" : "500"
+        },
+        "primaryMetric" : {
+            "score" : 200.09821464990057,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 198.57223281578842,
+                "50.0" : 200.09821464990057,
+                "90.0" : 201.62419648401274,
+                "95.0" : 201.62419648401274,
+                "99.0" : 201.62419648401274,
+                "99.9" : 201.62419648401274,
+                "99.99" : 201.62419648401274,
+                "99.999" : 201.62419648401274,
+                "99.9999" : 201.62419648401274,
+                "100.0" : 201.62419648401274
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    198.57223281578842,
+                    201.62419648401274
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "IndividualMicros.Match.slidingStartsWith",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/mnt/sdb/hexiang/openjdk-oracle-23.0.1/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/lib/idea_rt.jar=40087:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "patternSize" : "100",
+            "traceSize" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 394.37145812176755,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 393.870334120983,
+                "50.0" : 394.37145812176755,
+                "90.0" : 394.8725821225521,
+                "95.0" : 394.8725821225521,
+                "99.0" : 394.8725821225521,
+                "99.9" : 394.8725821225521,
+                "99.99" : 394.8725821225521,
+                "99.999" : 394.8725821225521,
+                "99.9999" : 394.8725821225521,
+                "100.0" : 394.8725821225521
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    393.870334120983,
+                    394.8725821225521
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "IndividualMicros.Match.slidingSubstring",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/mnt/sdb/hexiang/openjdk-oracle-23.0.1/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/lib/idea_rt.jar=40087:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "patternSize" : "3",
+            "traceSize" : "20"
+        },
+        "primaryMetric" : {
+            "score" : 39.060892146931224,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 38.25793412445199,
+                "50.0" : 39.060892146931224,
+                "90.0" : 39.863850169410455,
+                "95.0" : 39.863850169410455,
+                "99.0" : 39.863850169410455,
+                "99.9" : 39.863850169410455,
+                "99.99" : 39.863850169410455,
+                "99.999" : 39.863850169410455,
+                "99.9999" : 39.863850169410455,
+                "100.0" : 39.863850169410455
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    39.863850169410455,
+                    38.25793412445199
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "IndividualMicros.Match.slidingSubstring",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/mnt/sdb/hexiang/openjdk-oracle-23.0.1/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/lib/idea_rt.jar=40087:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "patternSize" : "3",
+            "traceSize" : "100"
+        },
+        "primaryMetric" : {
+            "score" : 237.87403309965538,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 231.62969200481749,
+                "50.0" : 237.87403309965538,
+                "90.0" : 244.11837419449327,
+                "95.0" : 244.11837419449327,
+                "99.0" : 244.11837419449327,
+                "99.9" : 244.11837419449327,
+                "99.99" : 244.11837419449327,
+                "99.999" : 244.11837419449327,
+                "99.9999" : 244.11837419449327,
+                "100.0" : 244.11837419449327
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    244.11837419449327,
+                    231.62969200481749
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "IndividualMicros.Match.slidingSubstring",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/mnt/sdb/hexiang/openjdk-oracle-23.0.1/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/lib/idea_rt.jar=40087:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "patternSize" : "3",
+            "traceSize" : "500"
+        },
+        "primaryMetric" : {
+            "score" : 1246.9414038560594,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 1219.865084654794,
+                "50.0" : 1246.9414038560594,
+                "90.0" : 1274.017723057325,
+                "95.0" : 1274.017723057325,
+                "99.0" : 1274.017723057325,
+                "99.9" : 1274.017723057325,
+                "99.99" : 1274.017723057325,
+                "99.999" : 1274.017723057325,
+                "99.9999" : 1274.017723057325,
+                "100.0" : 1274.017723057325
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    1274.017723057325,
+                    1219.865084654794
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "IndividualMicros.Match.slidingSubstring",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/mnt/sdb/hexiang/openjdk-oracle-23.0.1/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/lib/idea_rt.jar=40087:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "patternSize" : "3",
+            "traceSize" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 2554.2336578221425,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2493.771044865404,
+                "50.0" : 2554.2336578221425,
+                "90.0" : 2614.696270778881,
+                "95.0" : 2614.696270778881,
+                "99.0" : 2614.696270778881,
+                "99.9" : 2614.696270778881,
+                "99.99" : 2614.696270778881,
+                "99.999" : 2614.696270778881,
+                "99.9999" : 2614.696270778881,
+                "100.0" : 2614.696270778881
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    2614.696270778881,
+                    2493.771044865404
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "IndividualMicros.Match.slidingSubstring",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/mnt/sdb/hexiang/openjdk-oracle-23.0.1/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/lib/idea_rt.jar=40087:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "patternSize" : "10",
+            "traceSize" : "100"
+        },
+        "primaryMetric" : {
+            "score" : 248.5053115652941,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 244.44522437307523,
+                "50.0" : 248.5053115652941,
+                "90.0" : 252.565398757513,
+                "95.0" : 252.565398757513,
+                "99.0" : 252.565398757513,
+                "99.9" : 252.565398757513,
+                "99.99" : 252.565398757513,
+                "99.999" : 252.565398757513,
+                "99.9999" : 252.565398757513,
+                "100.0" : 252.565398757513
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    252.565398757513,
+                    244.44522437307523
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "IndividualMicros.Match.slidingSubstring",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/mnt/sdb/hexiang/openjdk-oracle-23.0.1/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/lib/idea_rt.jar=40087:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "patternSize" : "10",
+            "traceSize" : "500"
+        },
+        "primaryMetric" : {
+            "score" : 1447.6213877925998,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 1445.2138187861271,
+                "50.0" : 1447.6213877925998,
+                "90.0" : 1450.0289567990721,
+                "95.0" : 1450.0289567990721,
+                "99.0" : 1450.0289567990721,
+                "99.9" : 1450.0289567990721,
+                "99.99" : 1450.0289567990721,
+                "99.999" : 1450.0289567990721,
+                "99.9999" : 1450.0289567990721,
+                "100.0" : 1450.0289567990721
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    1450.0289567990721,
+                    1445.2138187861271
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "IndividualMicros.Match.slidingSubstring",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/mnt/sdb/hexiang/openjdk-oracle-23.0.1/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/lib/idea_rt.jar=40087:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "patternSize" : "10",
+            "traceSize" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 2910.4672596439987,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2886.8230219272937,
+                "50.0" : 2910.4672596439987,
+                "90.0" : 2934.1114973607037,
+                "95.0" : 2934.1114973607037,
+                "99.0" : 2934.1114973607037,
+                "99.9" : 2934.1114973607037,
+                "99.99" : 2934.1114973607037,
+                "99.999" : 2934.1114973607037,
+                "99.9999" : 2934.1114973607037,
+                "100.0" : 2934.1114973607037
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    2886.8230219272937,
+                    2934.1114973607037
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "IndividualMicros.Match.slidingSubstring",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/mnt/sdb/hexiang/openjdk-oracle-23.0.1/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/lib/idea_rt.jar=40087:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "patternSize" : "100",
+            "traceSize" : "500"
+        },
+        "primaryMetric" : {
+            "score" : 1821.1470092005202,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 1812.7705476621963,
+                "50.0" : 1821.1470092005202,
+                "90.0" : 1829.5234707388443,
+                "95.0" : 1829.5234707388443,
+                "99.0" : 1829.5234707388443,
+                "99.9" : 1829.5234707388443,
+                "99.99" : 1829.5234707388443,
+                "99.999" : 1829.5234707388443,
+                "99.9999" : 1829.5234707388443,
+                "100.0" : 1829.5234707388443
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    1812.7705476621963,
+                    1829.5234707388443
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "IndividualMicros.Match.slidingSubstring",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/mnt/sdb/hexiang/openjdk-oracle-23.0.1/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/lib/idea_rt.jar=40087:/mnt/sdb/hexiang/.cache/JetBrains/RemoteDev/dist/a3c4f5cf4aad7_ideaIU-243.19420.21/bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "23.0.1",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "23.0.1+11-39",
+        "warmupIterations" : 3,
+        "warmupTime" : "5 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 2,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "patternSize" : "100",
+            "traceSize" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 4147.743920154962,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 4105.492361247948,
+                "50.0" : 4147.743920154962,
+                "90.0" : 4189.995479061977,
+                "95.0" : 4189.995479061977,
+                "99.0" : 4189.995479061977,
+                "99.9" : 4189.995479061977,
+                "99.99" : 4189.995479061977,
+                "99.999" : 4189.995479061977,
+                "99.9999" : 4189.995479061977,
+                "100.0" : 4189.995479061977
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    4105.492361247948,
+                    4189.995479061977
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+]
+
+
